@@ -1,5 +1,4 @@
 const express = require('express');
-const dotenv = require('dotjsenv');
 const cors = require('cors');
 require('dotenv').config();
 const { connectDB } = require('./config/db.js');
@@ -15,7 +14,7 @@ const port = 4000;
 // middleware
 app.use(express.json());
 app.use(cors());
-app.use(dotenv());
+
 // db connection
 connectDB();
 
