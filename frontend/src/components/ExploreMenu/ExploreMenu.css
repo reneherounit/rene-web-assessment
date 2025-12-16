@@ -36,6 +36,10 @@
     transition: 0.2s;
 }
 
+.explore-menu-list-item img:hover{
+    transform: scale(1.1);
+}
+
 .explore-menu-list-item p{
     margin-top: 10px;
     color: #747474;
